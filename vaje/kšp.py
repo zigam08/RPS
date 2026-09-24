@@ -1,3 +1,12 @@
+def vnos():
+    izbira = input("Vnesi kamen, škarje ali papir: ").lower()
+    return izbira
+
+
+def igra(igralec1, igralec2):
+    print("Igralec 1:", igralec1)
+    print("Igralec 2:", igralec2)
+
     if igralec1 == igralec2:
         print("Neodločeno!")
 
